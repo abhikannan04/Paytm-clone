@@ -1,11 +1,5 @@
-import React from 'react'
-
-const SubHeading = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default SubHeading
+export default function SubHeading({label}) {
+  return <div className="">
+    {label}
+  </div>
+};

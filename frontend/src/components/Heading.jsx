@@ -1,11 +1,5 @@
-import React from 'react'
-
-const Heading = () => {
-  return (
-    <div>
-      
+export default function Heading({label}) {
+    return <div className="">
+    {label}
     </div>
-  )
-}
-
-export default Heading
+};

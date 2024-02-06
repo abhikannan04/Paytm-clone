@@ -1,11 +1,8 @@
-import React from 'react'
-
-const InputBox = () => {
+export default function InputBox({ label, placeholder, onChange }) {
   return (
-    <div>
-      
-    </div>
-  )
+    <>
+      <div>{label}</div>
+      <input type="text" placeholder={placeholder} onChange={onChange} />
+    </>
+  );
 }
-
-export default InputBox

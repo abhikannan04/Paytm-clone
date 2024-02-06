@@ -1,11 +1,8 @@
-import React from 'react'
-
-const Balance = () => {
+export default function Balance({ value }) {
   return (
-    <div>
-      
-    </div>
-  )
+    <>
+      <div>Your Balance</div>
+      <div>Rs {value}</div>
+    </>
+  );
 }
-
-export default Balance
